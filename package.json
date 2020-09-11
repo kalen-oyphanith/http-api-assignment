@@ -1,0 +1,30 @@
+{
+    "name": "http-api-assignment",
+    "version": "1.0.0",
+    "engines": {
+        "node": "12.18.3",
+        "npm": "6.14.6"
+    },
+    "description": "HTTP API hw with status codes and accept headers",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests Complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kalen-oyphanith/http-api-assignment.git"
+    },
+    "author": "Kalen Oyphanith",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/kalen-oyphanith/http-api-assignment/issues"
+    },
+    "homepage": "https://github.com/kalen-oyphanith/http-api-assignment#readme",
+    "devDependencies": {
+        "eslint": "^7.8.1",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0"
+    }
+}
